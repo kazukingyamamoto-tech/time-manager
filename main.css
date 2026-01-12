@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+#time {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+
+.live {
+    background-color: #d1ff66;
+    background-image: repeating-linear-gradient(-45deg, #c9fc51, #c9fc51, 8px, transparent 0, transparent 16px);
+}
+
+.die {
+    background-color: #ffb366;
+    background-image: repeating-linear-gradient(-45deg, #fcc351, #fcc351, 8px, transparent 0, transparent 16px);
+}
