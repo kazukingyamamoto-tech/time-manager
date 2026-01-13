@@ -9,7 +9,7 @@
 
 <body>
 <div id="back" class="live">  
-    <h1>生きるか死ぬか、選ぶのはお前だ</h1>
+  <h1>生きるか死ぬか、選ぶのはお前だ</h1>
   <div id="time">00:00:00</div>
   <label><input type="radio" name="mode" value="live" checked>生きる</label>
   <label><input type="radio" name="mode" value="die">死ぬ</label>
@@ -17,6 +17,13 @@
   <button id="stop">ストップ</button>
 </div>
 
-  <script src="script.js"></script>
+<div id ="resultArea">
+  <h2>生きた</h2>
+  <div id="liveresult"></div>
+  <h2>死んだ </h2>
+  <div id="dieresult"></div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
