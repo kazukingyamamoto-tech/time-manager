@@ -28,4 +28,4 @@ This is the first version of the application
 - Added a result area where users can add details and delete records
 
 ### Second Version 14/01/26
--Added a reset button
+- Added a reset button
