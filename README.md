@@ -11,6 +11,7 @@ However, this application visualizes the balance between productive activities a
 - Radio buttons to select the type of activity
 - Result to record your time management
 - Ability to add details and delete records
+- Reset button to reset all records
 
 ## Current Status
 This is the first version of the application
@@ -25,3 +26,6 @@ This is the first version of the application
 - Added a timer
 - Added radio buttons to select the type of activity
 - Added a result area where users can add details and delete records
+
+### Second Version 14/01/26
+-Added a reset button
