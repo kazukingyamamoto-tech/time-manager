@@ -157,3 +157,14 @@ window.addEventListener("DOMContentLoaded", () => {
         drenderRecords();
     }
 });
+
+document.getElementById("reset").onclick = () => {
+    if (confirm("すべての記録をリセットしますか？")) {
+        localStorage.removeItem("lrecords");
+        localStorage.removeItem("drecords");
+        lrecords = [];
+        drecords = [];
+        lrenderRecords();
+        drenderRecords();
+    }
+};
